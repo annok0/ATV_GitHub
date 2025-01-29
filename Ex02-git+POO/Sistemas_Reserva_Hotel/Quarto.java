@@ -12,7 +12,7 @@ public class Quarto {
         this.id=id;
         this.tipo=tipo;
         this.preco_diaria=preco_diaria;
-        this.disponivel=disponivel
+        this.disponivel=disponivel;
     }
 
     //Métodos
@@ -57,8 +57,9 @@ public class Quarto {
     }
 
     public void ExibirDetalhes() {
-        return id;
-        return tipo;
-        return preco_diaria;
+        System.out.println(getId());
+        System.out.println(getTipo());
+        System.out.println(getPreco_diaria());
+        System.out.println(isDisponivel());
     }
 }
