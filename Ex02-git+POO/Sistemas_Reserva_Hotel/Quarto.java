@@ -7,8 +7,12 @@ public class Quarto {
     public boolean disponivel;
 
     //Construtor
-    public Quarto() {
-
+    public Quarto() {}
+    public Quarto(int id, String tipo, double preco_diaria, boolean disponivel) {
+        this.id=id;
+        this.tipo=tipo;
+        this.preco_diaria=preco_diaria;
+        this.disponivel=disponivel
     }
 
     //Métodos
